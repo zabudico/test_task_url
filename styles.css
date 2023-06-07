@@ -1,0 +1,40 @@
+/* Styles for User Interface */
+
+/* Forms */
+#register-form,
+#login-form,
+#create-url-form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #f39c12;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* URL List */
+#urls-list {
+  margin-top: 30px;
+}
+
+#urls-list h2 {
+  margin-bottom: 10px;
+}
+
+#urls-list ul {
+  list-style-type: none;
+}
+
+#urls-list li {
+  margin-bottom: 5px;
+}
